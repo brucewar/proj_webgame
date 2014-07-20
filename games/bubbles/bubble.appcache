@@ -1,0 +1,57 @@
+CACHE MANIFEST
+#2013-09-13_b1
+CACHE:
+#picture file
+./js/res/0.png
+./js/res/1.png
+./js/res/2.png
+./js/res/3.png
+./js/res/btn_bubble.ogg
+./js/res/bubble_background.png
+./js/res/bubble_floor.png
+./js/res/bubbles_intro.png
+./js/res/download_normal.png
+./js/res/download_pressed.png
+./js/res/gallery_normal.png
+./js/res/gallery_pressed.png
+./js/res/rectangle.png
+./js/res/refresh_down.png
+./js/res/refresh_up.png
+./js/res/stone_remove.plist
+./js/res/stars.png
+./js/res/return_down.png
+./js/res/return_up.png
+
+#sounds file
+./js/res/btn_bubble.ogg
+
+
+#js file
+./js/src/stone_model.js
+./js/src/resource.js
+./js/bubbles_game.js
+./main.js
+../../public_js/jquery/images/ajax-loader.gif
+../../public_js/jquery/images/icons-18-white.png
+../../public_js/jquery/jquery-1.9.1.min.js
+../../public_js/jquery/jquery.mobile-1.3.1.min.css
+../../public_js/jquery/jquery.mobile-1.3.1.min.js
+../../public_js/jquery/jquery.min.map
+../../public_js/url_parser.js
+../../public_js/global_vars.js
+../../public_js/form_validator.js
+../../public_js/wx_share.js
+../../public_js/utils.js
+#public picture
+../../public_res/logo_bubbles.png
+../../public_res/guide.png
+../../public_res/follow_guide.png
+../../public_res/guide.png
+../../public_res/loading.gif
+stone_cocos2d.js
+js/global_var.js
+../../public_js/wx_share.js
+../../public_js/cocos2d-html5.min.js
+
+NETWORK:
+*

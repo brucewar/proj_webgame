@@ -1,0 +1,67 @@
+CACHE MANIFEST
+#2013-09-13
+CACHE:
+#picture file
+./js/res/0.png
+./js/res/1.png
+./js/res/2.png
+./js/res/3.png
+./js/res/back.png
+./js/res/back_normal.png
+./js/res/back_pressed.png
+./js/res/download_normal.png
+./js/res/download_pressed.png
+./js/res/downsurface.png
+./js/res/gallery_normal.png
+./js/res/gallery_pressed.png
+./js/res/horizental(down).png
+./js/res/horizental(up).png
+./js/res/refresh_down.png
+./js/res/refresh_up.png
+./js/res/play_normal.png
+./js/res/play_pressed.png
+./js/res/power_normal.png
+./js/res/power_pressed.png
+./js/res/line.png
+./js/res/refresh_up.png
+./js/res/refresh_down.png
+./js/res/return_down.png
+./js/res/return_up.png
+./js/res/surface.png
+./js/res/surface2.png
+./js/res/upsurface.png
+
+#sounds file
+./js/res/scoreEffect.wav
+
+
+#js file
+./js/src/bandits_main.js
+./js/src/resource.js
+./js/bandits_game.js
+./js/global_var.js
+./main.js
+../../public_js/jquery/images/ajax-loader.gif
+../../public_js/jquery/images/icons-18-white.png
+../../public_js/jquery/jquery-1.9.1.min.js
+../../public_js/jquery/jquery.mobile-1.3.1.min.css
+../../public_js/jquery/jquery.mobile-1.3.1.min.js
+../../public_js/jquery/jquery.min.map
+../../public_js/url_parser.js
+../../public_js/global_vars.js
+../../public_js/form_validator.js
+../../public_js/wx_share.js
+../../public_js/utils.js
+#public picture
+../../public_res/logo_bandits.png
+../../public_res/guide.png
+../../public_res/follow_guide.png
+../../public_res/guide.png
+../../public_res/loading.gif
+cocos2d.js
+js/global_var.js
+../../public_js/wx_share.js
+../../public_js/cocos2d-html5.min.js
+
+NETWORK:
+*

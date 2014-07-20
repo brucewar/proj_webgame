@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>咕嘟拼图</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="screen-orientation" content="portrait"/>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0px;
+    }
+
+    .mask {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      _position: absolute;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .opacity {
+      opacity: 0.85;
+      filter: alpha(opacity=30);
+      background-color: #000;
+    }
+
+    .listItemNoIcon .ui-icon {
+      display: none;
+    }
+  </style>
+  <!-- Libraries -->
+  <link rel="stylesheet" href="../../public_js/jquery/jquery.mobile-1.3.1.min.css"/>
+  <style>
+    .item {
+      width: 25%;
+    }
+
+    .item.w2 {
+      width: 50%;
+    }
+  </style>
+
+  <!-- including jquery -->
+
+  <script src="../../public_js/jquery/jquery-1.9.1.min.js"></script>
+  <script src="../../public_js/jquery/jquery.mobile-1.3.1.min.js" async="async"></script>
+
+
+  <script type="text/javascript">
+    window.onunload = refresh;
+    window.onbeforeunload = refresh;
+
+    function refresh() {
+      return "游戏数据将丢失，确定要刷新吗？";
+    }
+  </script>
+</head>
+<body>
+<div data-role="page" id="intro" data-url="intro">
+  <div data-role="content">
+    <table class="ui-responsive table-stroke">
+      <tr>
+        <td style='margin:10px;'>
+          <img id="game_icon" style="height:64px; width:64px;"
+               src="../../public_res/logo_bricks.png"/>
+        </td>
+        <td style='vertical-align:top; width:100%;text-align:left;'>
+          <div style='margin:10px;'>
+            <h2 style='margin-top:5px; margin-bottom:5px;'><span id="game_name"></span></h2>
+            <span id='last_players'></span>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><a href="#" data-role="button" data-corners="false"
+                                 onclick="enterGame();">开始玩</a>
+      </div>
+      <div class="ui-block-b"><a href="#" data-role="button" data-corners="false"
+                                 onclick="share(1);">分享</a>
+      </div>
+    </div>
+    <!-- <a href="#" data-role="button" data-corners="false" onclick="followGD();">关注咕嘟游戏</a> -->
+    <div data-role="collapsible" data-theme="b" data-content-theme="d"
+         data-iconpos="right" id="how_to_play" data-corners="false" class="listItemNoIcon">
+      <h3 style="text-align:center">猛击查看秘籍</h3>
+
+      <p style="text-align:center;">记住图片</p>
+
+      <p style="text-align:center;">
+        <img style="width:40%" id="bricks_intro_pic" src=""/>
+      </p>
+    </div>
+    <div style="text-align:center;"><h3 style="margin-top:5px;margin-bottom:5px;">排行榜</h3></div>
+    <table style='width:100%;'>
+      <tbody id="game_rank_list">
+
+      </tbody>
+    </table>
+  </div>
+  <div id="share_layer" class="mask opacity" style="display: none;" onclick="share(0);">
+    <img style="max-width:80%; float:right; margin-right:10px;" src="../../public_res/guide.png"/>
+  </div>
+  <div id="follow_hint_layer" class="mask opacity" style="display: none;">
+    <div style="vertical-align:middle;height:100%;margin:20px;">
+      <font color="white">
+        <p>想获得永久排名？想和好友分享自己的图片游戏？</p>
+
+        <p>请点击右上角并关注我们的官方微信公众账号“咕嘟游戏”，精彩等你来！</p>
+      </font>
+      <button onclick="showFollow(0);">知道了</button>
+    </div>
+  </div>
+</div>
+<div data-role="page" id="game" data-url="game">
+  <div id="outer_frame">
+    <!-- <canvas id="gameCanvas" style="width:100%; min-height:360px;"></canvas>  -->
+  </div>
+</div>
+<script src="bricks_cocos2d.js"></script>
+</body>
+<script src="../../public_js/url_parser.js" async="async"></script>
+<script src="../../public_js/form_validator.js" async="async"></script>
+<script src="js/global_var.js" async="async"></script>
+<script src="js/bricks_game.js" async="async"></script>
+<script src="../../public_js/wx_share.js"></script>
+<script src="../../public_js/utils.js" async="async"></script>
+</html>

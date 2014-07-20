@@ -1,0 +1,7 @@
+rm /data/forever.log -f
+rm /data/out.log -f
+rm /data/err.log -f
+cd /data/nodeproj/proj_webgame/WeiXin_Server
+nohup node weixin_server.js &
+cd /data/nodeproj/proj_webgame/Portal_Server
+nohuo forever start -l /data/forever.log -o /data/out.log -e /data/err.log portal_server.js

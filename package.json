@@ -1,0 +1,17 @@
+{
+  "name": "proj_webgame",
+  "version": "0.1.0",
+  "author": "brucewar",
+  "description": "webgame based on weixin",
+  "repository": "http://github.com/brucewar/proj_webgame",
+  "scripts": {
+    "start": "node portal_server.js"
+  },
+  "dependencies": {
+    "express": "~3.3.4",
+    "forever-monitor": "~1.2.2",
+    "mongoose": "~3.6.15",
+    "tracer": "~0.5.1",
+    "when": "~2.3.0"
+  }
+}

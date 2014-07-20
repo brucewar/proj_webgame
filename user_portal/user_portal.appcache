@@ -1,0 +1,14 @@
+CACHE MANIFEST
+#2013-09-18
+CACHE:
+#js file
+../public_js/url_parser.js
+../public_js/jquery/jquery-1.9.1.min.js
+../public_js/jquery/jquery.mobile-1.3.1.min.js
+./js/splash.js
+../public_js/wx_share.js
+
+#picture file
+../public_res/logo.png
+NETWORK:
+*

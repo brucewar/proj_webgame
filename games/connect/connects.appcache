@@ -1,0 +1,59 @@
+CACHE MANIFEST
+#2013-09-18_b2
+CACHE:
+
+#picture file
+./js/res/connects_background.png
+./js/res/download_normal.png
+./js/res/download_pressed.png
+./js/res/find_down.png
+./js/res/find_up.png
+./js/res/gallery_normal.png
+./js/res/gallery_pressed.png
+./js/res/header.png
+./js/res/rectangle.png
+./js/res/refresh_down.png
+./js/res/refresh_up.png
+./js/res/return_down.png
+./js/res/return_up.png
+./js/res/shit.png
+./js/res/star.png
+./js/res/stars.png
+./js/res/taken-gem.plist
+./js/res/timer.png
+
+#sounds file
+./js/sounds/cancel.ogg
+./js/sounds/connect.ogg
+
+#js file
+./js/src/connection_Model.js
+./js/src/connection_scene.js
+./js/src/lineSprite.js
+./js/src/resource.js
+./main.js
+../../public_js/jquery/images/ajax-loader.gif
+../../public_js/jquery/images/icons-18-white.png
+../../public_js/jquery/jquery-1.9.1.min.js
+../../public_js/jquery/jquery.mobile-1.3.1.min.css
+../../public_js/jquery/jquery.mobile-1.3.1.min.js
+../../public_js/jquery/jquery.min.map
+../../public_js/url_parser.js
+../../public_js/global_vars.js
+../../public_js/form_validator.js
+../../public_js/wx_share.js
+../../public_js/utils.js
+#public picture
+../../public_res/logo_connects.png
+../../public_res/guide.png
+../../public_res/follow_guide.png
+../../public_res/guide.png
+../../public_res/loading.gif
+cocos2d.js
+js/global_var.js
+js/connect_game.js
+../../public_js/wx_share.js
+../../public_js/cocos2d-html5.min.js
+
+NETWORK:
+*
